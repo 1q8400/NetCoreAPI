@@ -24,6 +24,4 @@ public class giaiiptb2 {
         }
         sc.close();
     }
-    
-
 } 
