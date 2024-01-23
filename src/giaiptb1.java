@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class giaiptb1 {
     public static void main(String[] args) {
         double a, b;
-        double ngiemptb1;
         Scanner  sc=new Scanner(System.in);
         System.out.println("nhap a");
         a= sc.nextDouble();
@@ -11,7 +10,7 @@ public class giaiptb1 {
         b= sc.nextDouble();
         if (a==0) {
             if (b==0) {
-                System.out.println("phuong tih vo so nghiem");
+                System.out.println("phuong tih vo so nghiem");}
                else{
                 System.out.println("phuong trinh co nghiem");
                } 
@@ -23,6 +22,5 @@ public class giaiptb1 {
             }
             sc.close();
             
-        }
+         }
     }
-}
