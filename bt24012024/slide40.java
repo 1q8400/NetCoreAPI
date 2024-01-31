@@ -1,11 +1,13 @@
 package bt24012024;
+
 import java.util.Scanner;
+
 public class slide40 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("nhap so ngay");
         int day = sc.nextInt();
-        String thu ="";
+        String thu = "";
         switch (day) {
             case 1:
                 thu = "Thu hai";
@@ -28,8 +30,8 @@ public class slide40 {
             case 7:
                 thu = "Chu nhat";
                 break;
+        }
+        System.out.println(" so ngay " + day + " la " + thu);
+        sc.close();
     }
-    System.out.println(" so ngay "+ day + " la "+ thu);
-    sc.close();
-}
 }
