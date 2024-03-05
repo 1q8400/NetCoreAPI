@@ -20,6 +20,6 @@ public class bai3slide93 {
 
             System.out.println("ban " + name + " da gia roi do ban oi");
         }
-
+        sc.close();
     }
 }
